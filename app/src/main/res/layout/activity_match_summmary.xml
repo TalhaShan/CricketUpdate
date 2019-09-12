@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatchSummmaryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Fieldeing-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="5dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:text="Fielding Summary"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:id="@+id/fieldT1titletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 1"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/fieldT1Detailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/fieldT2titletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 2"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/fieldT2Detailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--Bowling-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="5dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:text="Bowling Summary"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:id="@+id/bowlT1titletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 1"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/bowlT1Detailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/bowlT2titletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 2"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/bowlT2Detailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--Batting-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="5dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:text="Batting Summary"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:id="@+id/batT1titletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 1"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/batT1Detailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/batT2titletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 2"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/batT2Detailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--Result-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="5dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:text="Results"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:id="@+id/otherResulttv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Team 1"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>
